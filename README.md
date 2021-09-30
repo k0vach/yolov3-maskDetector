@@ -4,6 +4,12 @@ This is yolov3 Mask Detector. As name suggests it detects weather person is wear
 
 The weights for detector can be downloaded from here 
 
+yolov3 = https://1drv.ms/u/s!AoPk9gY9MtxkgzrZNR1b2CXw-BGf?e=H4pCjb
+
+yolov4 = https://1drv.ms/u/s!AoPk9gY9MtxkgzsWgoKg4Fk9biDi?e=B69ekr
+
+yolov4Tiny = https://1drv.ms/u/s!AoPk9gY9MtxkgzzzY2niI6Bdg2U0?e=JU03Vc
+
 
 Video uploads for 3 models can be found here 
 
