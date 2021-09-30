@@ -9,7 +9,7 @@ nmsThreshold = 0.3
 inpWidth = 320            
 inpHeight = 320           
 
-classesFile = r'D:\proG\computerVision\cVcourse\projects\trainingCustomFaceMaskYolo\yoloMask\class.names'
+classesFile = r'..\class.names'
 classes = None
 with open(classesFile, 'rt') as f:
     classes = f.read().rstrip('\n').split('\n')
