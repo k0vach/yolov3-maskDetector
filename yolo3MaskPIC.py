@@ -15,14 +15,14 @@ with open(classesFile, 'rt') as f:
     classes = f.read().rstrip('\n').split('\n')
 
 
-#modelConfiguration = r'D:\proG\computerVision\cVcourse\projects\trainingCustomFaceMaskYolo\yoloMask\yolov4-tiny608.cfg.txt'
-#modelWeights = r'D:\proG\computerVision\cVcourse\projects\trainingCustomFaceMaskYolo\yoloMask\yolov4-tiny608_best.weights'
+#modelConfiguration = r'..\yolov4-tiny608.cfg.txt'
+#modelWeights = r'..\yolov4-tiny608_best.weights'
 
-#modelConfiguration = r'D:\proG\computerVision\cVcourse\projects\trainingCustomFaceMaskYolo\yoloMask\yolov3-mask.cfg'
-#modelWeights = r'D:\proG\computerVision\cVcourse\projects\trainingCustomFaceMaskYolo\yoloMask\yolov3-mask_2000.weights'
+#modelConfiguration = r'..\yolov3-mask.cfg'
+#modelWeights = r'..\yolov3-mask_2000.weights'
 #
-#modelConfiguration = r'D:\proG\computerVision\cVcourse\projects\trainingCustomFaceMaskYolo\yolov4\version1\yolov4-mask.cfg'
-#modelWeights = r'D:\proG\computerVision\cVcourse\projects\trainingCustomFaceMaskYolo\yolov4\version1\yolov4-mask_final.weights'
+#modelConfiguration = r'..\yolov4-mask.cfg'
+#modelWeights = r'..\yolov4-mask_final.weights'
 
 
 net = cv2.dnn.readNetFromDarknet(modelConfiguration, modelWeights)
@@ -101,7 +101,7 @@ def detect(frame):
 
 
 
-imagesP = r'D:\proG\computerVision\cVcourse\projects\trainingCustomFaceMaskYolo\testData'
+imagesP = r'..\testData'
 
 lab = os.listdir(imagesP)
 li = []
